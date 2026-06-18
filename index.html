@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Findlay Card Show | Card Show in Findlay, Ohio</title>
+    <meta
+      name="description"
+      content="Join The Findlay Card Show at Hancock County Fairgrounds in Findlay, Ohio. Buy, sell, and trade Pokemon, TCG, sealed product, supplies, and collectibles. Vendor tables available."
+    />
+    <meta property="og:title" content="The Findlay Card Show" />
+    <meta property="og:description" content="Pokemon and other TCGs in Findlay, Ohio. Buy, sell, trade, and reserve vendor tables." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/social-card.svg" />
+    <meta name="theme-color" content="#050505" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="poster-page" aria-labelledby="hero-title">
+      <section class="poster-shell">
+        <div class="top-rule" aria-hidden="true"></div>
+
+        <header class="poster-hero">
+          <h1 id="hero-title" class="show-title">
+            <span>The</span>
+            <span>Findlay</span>
+            <span>Card Show</span>
+          </h1>
+          <p class="tagline">Pokemon &amp; Other Trading Card Games</p>
+        </header>
+
+        <section class="event-band" aria-label="Event details">
+          <div>
+            <strong>August 16th</strong>
+            <span>10am-3pm</span>
+          </div>
+          <div>
+            <strong>Hancock County Fairgrounds</strong>
+            <span>1017 E Sandusky St, Findlay, OH 45839</span>
+          </div>
+          <a class="mini-button" href="https://www.facebook.com/share/18ZadFtMSy/" target="_blank" rel="noreferrer">
+            Facebook Event
+          </a>
+        </section>
+
+        <section class="content-grid">
+          <article class="panel about-panel">
+            <h2>All Ages Welcome</h2>
+            <ul class="quick-list">
+              <li>75 Vendor Tables</li>
+              <li>Free Admission</li>
+              <li>Door Prize Giveaways every hour</li>
+            </ul>
+          </article>
+
+          <article class="panel vendor-panel">
+            <div class="panel-heading">
+              <h2>Reserve Vendor Table</h2>
+              <p><span data-config="tablePrice">$45</span> · <span data-available-tables>[Tables]</span> left</p>
+            </div>
+            <form class="compact-form" data-reservation-form>
+              <div class="form-pair">
+                <label>
+                  Name
+                  <input name="fullName" autocomplete="name" required />
+                </label>
+                <label>
+                  Business
+                  <input name="businessName" autocomplete="organization" required />
+                </label>
+              </div>
+              <div class="form-pair">
+                <label>
+                  Email
+                  <input type="email" name="email" autocomplete="email" required />
+                </label>
+                <label>
+                  Phone
+                  <input type="tel" name="phone" autocomplete="tel" required />
+                </label>
+              </div>
+              <div class="form-pair">
+                <label>
+                  Tables
+                  <select name="tables" required>
+                    <option value="">Select</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </label>
+                <label>
+                  Social, optional
+                  <input name="social" inputmode="url" placeholder="https://..." />
+                </label>
+              </div>
+              <label>
+                Items sold
+                <input name="items" required placeholder="Cards, sealed product, supplies..." />
+              </label>
+              <label>
+                Notes, optional
+                <input name="notes" />
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" name="agreement" required />
+                <span>I understand my table is confirmed once payment is completed and I agree to follow all vendor rules.</span>
+              </label>
+              <button class="button primary" type="submit">Reserve and Pay for Table</button>
+            </form>
+            <div class="confirmation" hidden data-confirmation role="status" aria-live="polite"></div>
+          </article>
+
+          <article class="panel contact-panel">
+            <h2>Questions?</h2>
+            <p>Contact Chase Hobbies for vendor questions, sponsorships, or event info.</p>
+            <p>Email: <span data-config="contactEmail">[Contact Email]</span></p>
+            <form class="contact-inline" data-contact-form>
+              <input name="name" autocomplete="name" placeholder="Name" required />
+              <input type="email" name="email" autocomplete="email" placeholder="Email" required />
+              <input name="message" placeholder="Message" required />
+              <button class="mini-button" type="submit">Contact</button>
+            </form>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

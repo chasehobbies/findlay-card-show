@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="The Findlay Card Show">
+  <rect width="1200" height="630" fill="#101820"/>
+  <path d="M0 0h1200v630H0z" fill="#101820"/>
+  <g opacity=".23" stroke="#24d2c8">
+    <path d="M0 90h1200M0 180h1200M0 270h1200M0 360h1200M0 450h1200M0 540h1200"/>
+    <path d="M90 0v630M180 0v630M270 0v630M360 0v630M450 0v630M540 0v630M630 0v630M720 0v630M810 0v630M900 0v630M990 0v630M1080 0v630"/>
+  </g>
+  <rect x="806" y="94" width="172" height="246" rx="18" fill="#223141" stroke="#24d2c8" stroke-width="8" transform="rotate(12 892 217)"/>
+  <rect x="919" y="253" width="172" height="246" rx="18" fill="#223141" stroke="#ffb23f" stroke-width="8" transform="rotate(-13 1005 376)"/>
+  <rect x="94" y="92" width="60" height="60" rx="10" fill="#24d2c8"/>
+  <text x="94" y="254" fill="#f7fbff" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="900">The Findlay</text>
+  <text x="94" y="354" fill="#f7fbff" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="900">Card Show</text>
+  <text x="98" y="434" fill="#ffb23f" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="800">August 16th · Hancock County Fairgrounds</text>
+  <text x="98" y="496" fill="#dbe7ef" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">Pokemon · TCG · Sports Cards · Collectibles</text>
+</svg>
