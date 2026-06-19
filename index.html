@@ -57,60 +57,14 @@
           <article class="panel vendor-panel">
             <div class="panel-heading">
               <h2>Reserve Vendor Table</h2>
-              <p><span data-config="tablePrice">$45</span> · <span data-available-tables>[Tables]</span> left</p>
+              <p><span data-config="tablePrice">$45</span> · <span data-available-tables>[Tables]</span> total</p>
             </div>
-            <form class="compact-form" data-reservation-form>
-              <div class="form-pair">
-                <label>
-                  Name
-                  <input name="fullName" autocomplete="name" required />
-                </label>
-                <label>
-                  Business
-                  <input name="businessName" autocomplete="organization" required />
-                </label>
-              </div>
-              <div class="form-pair">
-                <label>
-                  Email
-                  <input type="email" name="email" autocomplete="email" required />
-                </label>
-                <label>
-                  Phone
-                  <input type="tel" name="phone" autocomplete="tel" required />
-                </label>
-              </div>
-              <div class="form-pair">
-                <label>
-                  Tables
-                  <select name="tables" required>
-                    <option value="">Select</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                  </select>
-                </label>
-                <label>
-                  Social, optional
-                  <input name="social" inputmode="url" placeholder="https://..." />
-                </label>
-              </div>
-              <label>
-                Items sold
-                <input name="items" required placeholder="Cards, sealed product, supplies..." />
-              </label>
-              <label>
-                Notes, optional
-                <input name="notes" />
-              </label>
-              <label class="checkbox">
-                <input type="checkbox" name="agreement" required />
-                <span>I understand my table is confirmed once payment is completed and I agree to follow all vendor rules.</span>
-              </label>
-              <button class="button primary" type="submit">Reserve and Pay for Table</button>
-            </form>
-            <div class="confirmation" hidden data-confirmation role="status" aria-live="polite"></div>
+            <div class="vendor-cta">
+              <p>Vendor tables are $45 each. Complete the Google Form to register for the show.</p>
+              <a class="button primary" href="https://forms.gle/QwTPR3o1Ax1UqKz57" target="_blank" rel="noreferrer">
+                Register for Vendor Tables
+              </a>
+            </div>
           </article>
 
           <article class="panel contact-panel">

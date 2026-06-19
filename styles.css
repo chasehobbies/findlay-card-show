@@ -246,17 +246,6 @@ select {
   text-align: right;
 }
 
-.compact-form {
-  display: grid;
-  gap: 0.42rem;
-}
-
-.form-pair {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.42rem;
-}
-
 label {
   display: grid;
   gap: 0.18rem;
@@ -283,22 +272,6 @@ select:focus {
   outline: 3px solid rgba(7, 62, 176, 0.16);
 }
 
-.checkbox {
-  grid-template-columns: auto 1fr;
-  align-items: start;
-  gap: 0.45rem;
-  padding: 0.45rem;
-  background: #fff4aa;
-  border-radius: 6px;
-  text-transform: none;
-}
-
-.checkbox input {
-  width: 1rem;
-  min-height: 1rem;
-  margin-top: 0.15rem;
-}
-
 .button,
 .mini-button {
   display: inline-flex;
@@ -318,6 +291,22 @@ select:focus {
 .button.primary {
   width: 100%;
   box-shadow: 4px 4px 0 var(--blue);
+}
+
+.vendor-cta {
+  display: grid;
+  align-content: center;
+  gap: 0.8rem;
+  min-height: 100%;
+  text-align: center;
+}
+
+.vendor-cta p {
+  margin: 0;
+  color: var(--black);
+  font-size: clamp(1rem, 1.8vw, 1.35rem);
+  font-weight: 900;
+  line-height: 1.25;
 }
 
 .contact-panel {
@@ -344,24 +333,6 @@ select:focus {
 .contact-inline input[name="message"],
 .contact-inline button {
   grid-column: span 2;
-}
-
-.confirmation {
-  margin-top: 0.55rem;
-  padding: 0.55rem;
-  border: 2px solid var(--black);
-  border-radius: 6px;
-  background: #fff4aa;
-  color: var(--black);
-  font-size: 0.82rem;
-  font-weight: 850;
-}
-
-.confirmation-actions {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.4rem;
-  margin-top: 0.45rem;
 }
 
 @media (max-width: 920px) {
@@ -393,9 +364,7 @@ select:focus {
     box-shadow: inset 0 0 0 3px var(--black);
   }
 
-  .form-pair,
-  .contact-inline,
-  .confirmation-actions {
+  .contact-inline {
     grid-template-columns: 1fr;
   }
 

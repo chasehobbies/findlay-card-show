@@ -18,18 +18,18 @@ Most editable event details are in `script.js` inside the `SITE_CONFIG` object:
 - `vendorSetupTime`
 - `contactEmail`
 - `facebookEventLink`
-- `paymentLink`
+- `vendorFormLink`
 - `refundPolicy`
 
 Replace placeholder values such as `[Show Time]`, `[Vendor Table Price]`, and `[Contact Email]` when final details are available.
 
-## Payment Setup
+## Vendor Registration
 
-Set `paymentLink` in `script.js` to a Stripe, Square, PayPal, or other checkout URL. When a real `https://` link is added, the reservation form will open that checkout page after submission.
+Vendor registration is handled through this Google Form:
 
-## Vendor Reservations
+https://forms.gle/QwTPR3o1Ax1UqKz57
 
-The demo reservation form stores submissions in the visitor's browser using local storage and provides a host notification email link. For production, connect the form to a backend service, form provider, or payment platform webhook so vendor data is stored centrally and confirmation emails can be sent automatically.
+Update `vendorFormLink` in `script.js` and the button link in `index.html` if the registration form changes.
 
 ## Map and Directions
 
